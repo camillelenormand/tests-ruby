@@ -22,7 +22,7 @@ def reverse_upcase_noLTA(string)
 end
 
 def array_42(array)
-  array.include?(42) ? true : false
+  array.include?(42) 
 end
 
 def magic_array(array)

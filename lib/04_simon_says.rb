@@ -22,7 +22,10 @@ end
 
 def titleize(sentence)
   #return string.titleize
-  little_words = ["but", "and", "or", "of", "in", "to", "an", "a", "if"]
-  sentence.split(" ").map{ | word | little_words.include?(word) ? word : word.capitalize}.join(" ")
+  sentence.capitalize!
+  little_words = ["but", "and", "or", "of", "in", "to", "an", "a", "if", "the"]
+  sentence
+  .split(" ")
+  .map{ | word | little_words.include?(word) ? word : word.capitalize}.join(" ")
 end
 

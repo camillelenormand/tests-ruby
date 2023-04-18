@@ -3,3 +3,4 @@ gem 'nokogiri'
 gem 'rack', '~> 2.2.4'
 gem 'rspec'
 gem 'titleize'
+gem 'rubocop', require: false
